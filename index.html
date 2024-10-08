@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Movie Recommendation System</h1>
+
+        <!-- Input section to select a movie -->
+        <div class="input-section">
+            <label for="movieInput">Enter a movie name:</label>
+            <input list="movieTitles" type="text" id="movieInput" placeholder="Type a movie name...">
+            <datalist id="movieTitles">
+                <!-- Options will be populated by JavaScript -->
+            </datalist>
+            <button id="recommendButton">Get Recommendations</button>
+        </div>
+
+        <!-- Output section to display recommended movies -->
+        <div id="recommendations" class="recommendations">
+            <h2>Recommendations:</h2>
+            <ul id="recommendationList"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
