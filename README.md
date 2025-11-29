@@ -10,10 +10,6 @@ A graph-based movie recommendation system built using HTML, CSS, and JavaScript.
 - **Scalable Structure:** Designed to handle datasets of over 100 movies while maintaining stable performance.
 - **Improved User Engagement:** Recommendations are visually displayed, making it easier for users to explore and discover new movies.
 
-## Demo
-
-![Demo Screenshot](demo.png)
-> *(Replace with your own screenshot for better presentation)*
 
 ## Getting Started
 
@@ -52,11 +48,5 @@ movie-recom/
 - Expand recommendation logic for larger datasets.
 - Integrate external movie APIs for richer metadata.
 - Enable user accounts for personalized recommendations.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 Feel free to contribute by submitting issues or pull requests!
